@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    background-color: #D3E2E7;
+}
+header {
+    border: 1px solid #2f4858;
+    background-color: #86BBD8;
+    display: inline-block;
+    position: absolute;
+    right: 15%; 
+    border-radius: 15px;
+}
+
+.containerTitel {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    padding: 100px;
+    color: #F6AE2D;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav {
+    color: antiquewhite;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 80vw;
+    position: relative;
+}
+
+div {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 80vw;
+    border-radius: 15px;
+}
+
+.homepage {
+    background-color: #2f4858;
+}
+
+.introduction {
+    background-color: #86BBD8;
+}
+
+.characters {
+    background-color: #F6AE2D;
+}
+
+.gallery {
+    background-color: #F26419;
+}
+
+.aboutMe {
+    background-color: #2f4858;
+}
+
+.contact {
+    background-color: #86BBD8;
+}
+
+.containerAfbeelding {
+    display: inline-block;
+    position: absolute; 
+    border-radius: 15px;
+    left: 15%;
+    /* width: fit-content; */
+}
+/* 
+figure {
+    position: relative;
+    right: 24%;
+} */
+
+img {
+    position: fixed;
+    left: 14%;
+    border-radius: 15px;
+    width: 700px;
+    margin-bottom: 100px;
+}
