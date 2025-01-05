@@ -80,17 +80,16 @@ div {
 }
 
 .containerAfbeelding {
+    border: #2f4858;
     display: inline-block;
     position: absolute; 
     border-radius: 15px;
     left: 15%;
-    /* width: fit-content; */
-}
-/* 
-figure {
-    position: relative;
-    right: 24%;
-} */
+    
+} 
+
+
+
 
 img {
     position: fixed;
@@ -98,4 +97,4 @@ img {
     border-radius: 15px;
     width: 700px;
     margin-bottom: 100px;
-}
+} 

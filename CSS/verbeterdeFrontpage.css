@@ -1,3 +1,9 @@
-h2 {
-    color: rosybrown;
+:root {
+    background-color: #D3E2E7;
+    --dkb: #2f4858;
+    --lb: #D3E2E7;
+    --geel: #F6AE2D;
+    --ora: #F26419;
+    /*moet FONT VARIABELE maken*/   
 }
+
