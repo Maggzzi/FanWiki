@@ -15,16 +15,114 @@
     --ora: #F26419;
 }
 
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav {
+    color: antiquewhite;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 80vw;
+    position: relative;
+}
+
+div {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 80vw;
+    border-radius: 15px;
+}
+
+.homepage {
+    background-color: var(--dkb)
+}
+.homepage:hover {
+    background-color: #26315b;
+}
+
+
+.introduction {
+    background-color: var(--blw);
+}
+.introduction:hover {
+    background-color: #6f9ccb;
+}
+
+
+.characters {
+    background-color: var(--geel);
+}
+.characters:hover {
+    background-color: #ea8f26;
+}
+
+
+.gallery {
+    background-color: var(--ora)
+}
+.gallery:hover {
+    background-color: #d13f00;
+}
+
+
+.aboutMe {
+    background-color: var(--dkb)
+}
+.aboutMe:hover {
+    background-color: #26315b;
+}
+
+
+.contact {
+    background-color: var(--blw)
+}
+.contact:hover {
+    background-color: #6f9ccb;
+}
+
+
+.titel {
+    position: absolute;
+    right: 10%; 
+    bottom: 50%;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: var(--blw);
+    padding: 60px;
+    color: antiquewhite;
+    border: 2px solid var(--dkb);
+} 
+
+h1 {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+   font-size: 3em;
+}
+
 figure {
     border-radius: 15px;
     position: relative;
     top: 100px;
     left: 100px;
     width: 800px;
-    background-color: #F26419;
+    background-color: var(--geel);
 } 
 
-img {
+img {     
     width: 100%;
     height: 100%;
 }
