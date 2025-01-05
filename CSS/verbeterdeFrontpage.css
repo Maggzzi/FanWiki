@@ -1,9 +1,30 @@
-:root {
-    background-color: #D3E2E7;
-    --dkb: #2f4858;
-    --lb: #D3E2E7;
-    --geel: #F6AE2D;
-    --ora: #F26419;
-    /*moet FONT VARIABELE maken*/   
+* {
+    padding: 0;
+    margin: 0;
 }
 
+:root {
+    background-color: var(--lb);
+    font-family: Arial, Helvetica, sans-serif;
+
+    --dkb: #2f4858;
+    --lb: #D3E2E7;
+    --blw: #86BBD8;
+    --geel: #F6AE2D;
+    --ora: #F26419;
+}
+
+.titel {
+    padding: 50px;
+    background-color: var(--blw);
+    border: black;
+    color: var(--geel);
+    text-align: center;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+}
