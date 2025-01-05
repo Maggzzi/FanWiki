@@ -99,7 +99,6 @@ div {
     padding: 20px; */
     background-color: var(--geel);
     position: relative;
-    border: 2px solid red;
 }
 
 .sketch {
