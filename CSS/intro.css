@@ -93,37 +93,3 @@ div {
 .contact:hover {
     background-color: #6f9ccb;
 }
-
-
-.titel {
-    position: absolute;
-    right: 10%; 
-    bottom: 50%;
-    display: inline-block;
-    border-radius: 15px;
-    background-color: var(--blw);
-    padding: 60px;
-    color: antiquewhite;
-    border: 2px solid var(--dkb);
-} 
-
-h1 {
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   text-align: center;
-   font-size: 3em;
-}
-
-figure {
-    border-radius: 15px;
-    position: relative;
-    top: 100px;
-    left: 100px;
-    width: 800px;
-    background-color: var(--geel);
-} 
-
-img {     
-    width: 100%;
-    height: 100%;
-    display: block;
-}

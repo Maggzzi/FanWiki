@@ -92,3 +92,17 @@ div {
 .contact:hover {
     background-color: #6f9ccb;
 }
+
+.deSquad {
+    /* position: relative;
+    background-color: #F26419;
+    padding: 20px; */
+    background-color: var(--geel);
+    position: relative;
+    border: 2px solid red;
+}
+
+.sketch {
+    display: block;
+    position: absolute;
+}
