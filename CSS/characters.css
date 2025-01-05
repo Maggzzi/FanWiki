@@ -94,9 +94,6 @@ div {
 }
 
 .deSquad {
-    /* position: relative;
-    background-color: #F26419;
-    padding: 20px; */
     background-color: var(--geel);
     position: relative;
 }
