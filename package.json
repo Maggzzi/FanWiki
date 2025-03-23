@@ -1,0 +1,23 @@
+{
+  "name": "fanwiki",
+  "version": "1.0.0",
+  "description": "individuele project van HTML van mijn FanWiki website \r :D",
+  "homepage": "https://github.com/Maggzzi/FanWiki#readme",
+  "bugs": {
+    "url": "https://github.com/Maggzzi/FanWiki/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maggzzi/FanWiki.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
